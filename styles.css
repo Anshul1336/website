@@ -200,3 +200,82 @@ a {
     display: flex;
     justify-content: space-between;
 }
+
+/* Base styles */
+
+/* Mobile styles */
+@media (max-width: 767px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+        font-size: 20px;
+    }
+    nav ul li {
+        margin: 10px 0;
+    }
+    .photo1 {
+        width: 70%;
+        height: auto;
+        margin-left: 15%;
+    }
+    .intro {
+        margin: 20px;
+        font-size: 90%;
+    }
+    .certificates, .skills {
+        font-size: 25px;
+    }
+    .flex-box1, .flex-box2, .flex-boxp, .flex-boxz {
+        width: 80%;
+        margin: 10px;
+    }
+}
+
+/* Tablet styles */
+@media (min-width: 768px) and (max-width: 1024px) {
+    nav {
+        height: 12%;
+        font-size: 22px;
+    }
+    .photo1 {
+        width: 60%;
+        height: auto;
+        margin-left: 10%;
+    }
+    .intro {
+        margin: 50px;
+        font-size: 95%;
+    }
+    .certificates, .skills {
+        font-size: 28px;
+    }
+    .flex-box1, .flex-box2, .flex-boxp, .flex-boxz {
+        width: 45%;
+        margin: 15px;
+    }
+}
+
+/* Desktop styles */
+@media (min-width: 1025px) {
+    nav {
+        height: 10%;
+        font-size: 25px;
+    }
+    .photo1 {
+        width: 50%;
+        height: 20%;
+        margin-left: 14%;
+    }
+    .intro {
+        margin: 200px;
+        margin-left: 2%;
+        font-size: 100%;
+    }
+    .certificates, .skills {
+        font-size: 30px;
+    }
+    .flex-box1, .flex-box2, .flex-boxp, .flex-boxz {
+        width: 20%;
+        margin: 30px;
+    }
+}
